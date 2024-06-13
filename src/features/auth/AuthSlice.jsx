@@ -26,7 +26,7 @@ export const getOrders = createAsyncThunk(
       try {
         
         const result = await authService.orders();
-        console.log(result);
+       
         return result
         
       } catch (error) {
